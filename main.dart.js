@@ -23495,7 +23495,7 @@ A.aaD.prototype={
 $1(a){var s=A.cv().b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"/canvaskit/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/55eae6864b296dd9f43b2cc7577ec256e5c32a8d/":s)+a},
 $S:86}
 A.aaR.prototype={
 $1(a){this.a.remove()
