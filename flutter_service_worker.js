@@ -28,7 +28,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "dfff5aed4c8c979dd9424e16a40519cf
 "canvaskit/skwasm.wasm": "4051bfc27ba29bf420d17aa0c3a98bce",
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
-"flutter_bootstrap.js": "424e61354241119f366fa55da7eb4d08",
+"flutter_bootstrap.js": "d50b9060c73959fb1a76a20662b5ca88",
 "icons/android-icon-144x144.png": "3317075dedb693c76fa64614fe026c4f",
 "icons/android-icon-192x192.png": "58709fbdeaff0f4a0162978c23701674",
 "icons/android-icon-36x36.png": "2f18ce949175f82a6cd77ba2a6dc971a",
