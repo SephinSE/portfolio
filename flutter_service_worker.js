@@ -3,18 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "dfff5aed4c8c979dd9424e16a40519cf",
-"assets/AssetManifest.bin.json": "e4587e77c71146d1c24a942f167df5cc",
-"assets/AssetManifest.json": "89400601bf3d7a14daa4264ee7507b20",
+const RESOURCES = {"assets/AssetManifest.bin": "7ac700f9820dd80f269e5725879304a0",
+"assets/AssetManifest.bin.json": "a0b5f657b54e82c57cc145c0b4b7244b",
+"assets/AssetManifest.json": "48d217d9f3bcb77521f0af33e34e5e53",
 "assets/assets/display.jpg": "95878d9eba26543d03085321b847b13b",
+"assets/assets/Montserrat-VariableFont_wght.ttf": "e6cb49ef6502d09136c7302d56f4197b",
 "assets/assets/project01.jpg": "9712dc6bb4f1b8345650fbc1b99f81a1",
 "assets/assets/project02.jpg": "64872891834fbdd18e58c0385b2ba4cd",
 "assets/assets/project03.jpg": "b85ae68c7497683d7254113490bcff9e",
 "assets/assets/project04.jpg": "36fbae7a338879eeca36381c15857528",
 "assets/assets/resume.jpg": "4c57bc65d6ca453f8b9090abc1d8a045",
 "assets/assets/sephinseTEX.pdf": "c94975cdae4b4a9682433922de436df8",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "06b74a03affcbdb53bd2a05176e13619",
+"assets/FontManifest.json": "2cfde63560ff5030ef8e13048196d46e",
+"assets/fonts/MaterialIcons-Regular.otf": "b5fb2264eaaafa6cf8b3dadd1d6379d9",
 "assets/NOTICES": "dc03c469579f8a3bd4a38925ad53f2c2",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "canvaskit/canvaskit.js": "738255d00768497e86aa4ca510cce1e1",
@@ -28,7 +29,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "dfff5aed4c8c979dd9424e16a40519cf
 "canvaskit/skwasm.wasm": "4051bfc27ba29bf420d17aa0c3a98bce",
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
-"flutter_bootstrap.js": "83d8acf3f190dd77475511c208a5df90",
+"flutter_bootstrap.js": "4840352976802b1a946cc26569e82450",
 "icons/android-icon-144x144.png": "3317075dedb693c76fa64614fe026c4f",
 "icons/android-icon-192x192.png": "58709fbdeaff0f4a0162978c23701674",
 "icons/android-icon-36x36.png": "2f18ce949175f82a6cd77ba2a6dc971a",
@@ -57,7 +58,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "dfff5aed4c8c979dd9424e16a40519cf
 "icons/ms-icon-70x70.png": "4f587a8f7d61fbb3c2b487603c3303f8",
 "index.html": "4fdf2186dc9def0e3cef5dedba57cfcf",
 "/": "4fdf2186dc9def0e3cef5dedba57cfcf",
-"main.dart.js": "9af5a34b7c6bf85652b233b520e51e28",
+"main.dart.js": "e3c07d7be865368d83e9101e1f015876",
 "manifest.json": "c91bd3c6a487e43e5ea5ec565da5ec98",
 "version.json": "009c9e65172e010890f7f65fde438006"};
 // The application shell files that are downloaded before a service worker can
