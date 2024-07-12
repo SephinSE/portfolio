@@ -361,7 +361,7 @@ asI(){var s,r=A.cU().b
 if(r==null)s=null
 else{r=r.canvasKitVariant
 if(r==null)r=null
-s=r}r=A.auT(A.anJ(B.CM,s==null?"auto":s))
+s=r}r=A.auT(A.anJ(B.CL,s==null?"auto":s))
 return new A.a8(r,new A.a8d(),A.X(r).h("a8<1,w>"))},
 aub(a,b){return b+a},
 N3(){var s=0,r=A.R(t.e),q,p,o
@@ -857,7 +857,7 @@ nl(){return B.c.a2(self.window.performance.now()*1000)},
 auI(a){if($.afI!=null)return
 $.afI=new A.Zx(a.gcu())},
 auF(a){var s,r,q,p,o,n,m
-$label0$0:for(s=a.length,r=0;r<6;++r){q=B.C4[r]
+$label0$0:for(s=a.length,r=0;r<6;++r){q=B.C3[r]
 p=q.a
 o=p.length
 if(s<o)continue $label0$0
@@ -16446,7 +16446,7 @@ r.toString
 A.kr(r)
 q=a.k(0,"swipeEdge")
 q.toString
-return new A.Dt(s,r,B.Ce[A.d4(q)])},
+return new A.Dt(s,r,B.Cd[A.d4(q)])},
 vv:function vv(a,b){this.a=a
 this.b=b},
 Dt:function Dt(a,b,c){this.a=a
@@ -17681,7 +17681,7 @@ q=b.Q
 if(a.Q!==q)return q?-1:1
 return 0},
 anB(a,b){var s=A.X(b).h("a8<1,d9>")
-return A.an2(!0,A.U(new A.a8(b,new A.Qt(),s),!0,s.h("aA.E")),a,B.CG,!0,B.zv,null)},
+return A.an2(!0,A.U(new A.a8(b,new A.Qt(),s),!0,s.h("aA.E")),a,B.CF,!0,B.zv,null)},
 anz(a){a.bK()
 a.b1(A.aiz())},
 Bv(a){var s=a.a,r=s instanceof A.kZ?s:null
@@ -23421,7 +23421,7 @@ KA(){var s=this.Q
 s===$&&A.a()
 return s},
 zZ(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.CF
+if(a<0||b<0)return B.CE
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -23440,7 +23440,7 @@ l.push(new A.fe(n[0],n[1],n[2],n[3],B.h5[m]))}return l},
 jj(a){var s,r=this.a
 r===$&&A.a()
 r=r.a.getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.Cf[B.c.a2(r.affinity.value)]
+s=B.Ce[B.c.a2(r.affinity.value)]
 return new A.bN(B.c.a2(r.pos),s)},
 KE(a){var s=this.a
 s===$&&A.a()
@@ -26378,14 +26378,14 @@ RY(){var s=this,r=s.f
 if(r==null){r=s.f=new A.q3(s.b)
 r.d=new A.R_(s)}return r},
 Jz(a){var s,r=this
-if(B.b.q(B.C7,a.type)){s=r.RY()
+if(B.b.q(B.C6,a.type)){s=r.RY()
 s.toString
 s.sxs(J.i_(r.b.$0(),B.jL))
 if(r.e!==B.jS){r.e=B.jS
 r.E1()}}return r.c.a.Lr(a)},
 E1(){var s,r
 for(s=this.r,r=0;r<s.length;++r)s[r].$1(this.e)},
-Lq(a){if(B.b.q(B.Co,a))return this.e===B.c3
+Lq(a){if(B.b.q(B.Cn,a))return this.e===B.c3
 return!1}}
 A.R0.prototype={
 $0(){return new A.er(Date.now(),!1)},
@@ -31611,7 +31611,7 @@ if(o>0)return s
 return null}}
 A.a2Q.prototype={
 E(a,b){this.Cf(b,0,b.length,!1)},
-aS(){this.Cf(B.Cz,0,0,!0)}}
+aS(){this.Cf(B.Cy,0,0,!0)}}
 A.a7O.prototype={
 Cf(a,b,c,d){var s=this.b.a_B(a,b,c,d)
 if(s!=null)this.a.jK(s,0,s.length,d)}}
@@ -36444,7 +36444,7 @@ n=o.e
 o=o.cx
 r=q.gUj()
 q.a.toString
-return new A.w4(p,p,p,new A.a5w(),p,p,p,p,p,n,B.EA,p,p,p,B.CH,q.gUp(),o,p,B.LJ,s,p,r,p,p,B.km,!1,!1,!1,!1,q.gU4(),!1,p,p,p,new A.l5(q,t.bT))},
+return new A.w4(p,p,p,new A.a5w(),p,p,p,p,p,n,B.EA,p,p,p,B.CG,q.gUp(),o,p,B.LJ,s,p,r,p,p,B.km,!1,!1,!1,!1,q.gU4(),!1,p,p,p,new A.l5(q,t.bT))},
 M(a){var s,r=null,q=A.BI(!1,!1,this.Q_(a),r,r,r,r,!0,r,r,r,new A.a5x(),r,r)
 this.a.toString
 s=this.d
@@ -36741,7 +36741,7 @@ A.oY.prototype={
 F(){return"_CornerId."+this.b}}
 A.iM.prototype={}
 A.nM.prototype={
-hS(){var s,r,q=this,p=A.atC(B.CK,new A.WC(q,q.b.gaW().a0(0,q.a.gaW()))),o=q.a
+hS(){var s,r,q=this,p=A.atC(B.CJ,new A.WC(q,q.b.gaW().a0(0,q.a.gaW()))),o=q.a
 o.toString
 s=p.a
 o=q.l_(o,s)
@@ -43802,7 +43802,7 @@ KD(a){var s=this.b,r=s.a.c.KE(a.a0(0,s.geK()))
 if(r==null||s.geK().i(0,B.h))return r
 return new A.l6(r.a.cJ(s.geK()),r.b,r.c)},
 xc(){var s,r,q=this.b,p=q.geK()
-if(!isFinite(p.a)||!isFinite(p.b))return B.CB
+if(!isFinite(p.a)||!isFinite(p.b))return B.CA
 s=q.f
 if(s==null){s=q.a.c.xc()
 q.f=s}if(p.i(0,B.h))r=s
@@ -50370,7 +50370,7 @@ break
 case 1:return A.P(q,r)}})
 return A.Q($async$vr,r)},
 RP(a,b){var s,r,q,p
-if(a===b)return B.CD
+if(a===b)return B.CC
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.j1(B.cT,a)
@@ -54896,7 +54896,7 @@ if(b==null)return!1
 if(J.I(b)!==A.t(s))return!1
 return b instanceof A.dn&&b.a===s.a&&b.b===s.b&&b.c==s.c&&b.d===s.d&&A.cG(null,null)},
 gt(a){var s=this
-return A.L(s.a,s.b,s.c,s.d,A.bn(B.CE),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.L(s.a,s.b,s.c,s.d,A.bn(B.CD),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.d.m7(B.f.hE(this.a,16).toUpperCase(),5,"0")+")"}}
 A.lb.prototype={
 bx(a){return!this.w.i(0,a.w)}}
@@ -55955,7 +55955,7 @@ c=g==null?(c.b.c.a.a&64)!==0:g
 g=s&&d
 b=s?d:b.ch
 if(b==null)b=B.hv
-f=new A.tB(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.B0(d),B.CA)
+f=new A.tB(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.B0(d),B.Cz)
 if(!f.i(0,e.e))e.av(new A.a5O(e,f))},
 Hs(){this.no()},
 Hu(){if(this.d==null)this.no()},
@@ -56287,7 +56287,7 @@ r.L(0,s.JT(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.CI[p]
+for(;!1;++p){o=B.CH[p]
 n=l.c
 n.toString
 m=new A.eP(o.xl(n),null,!0,B.iq,B.b_,new A.mx(new ($.Ne())(B.b_)),B.b_)
@@ -56626,7 +56626,7 @@ M(a){var s,r,q=this,p=null,o=q.gTj(),n=A.ni(a),m=q.b4$,l=q.d
 l===$&&A.a()
 s=q.a.at
 if(l.gbc()==null){r=q.gBA()
-r=J.le(r.slice(0),A.X(r).c)}else r=B.CJ
+r=J.le(r.slice(0),A.X(r).c)}else r=B.CI
 return new A.l8(p,new A.cu(new A.Xt(q,a),A.nG(B.bi,new A.zB(!1,A.aej(A.BI(!0,p,A.a20(m,new A.nS(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),p,o,q.gUH(),p,p,o),p,t.w3),p)}}
 A.Xs.prototype={
 $1(a){var s=this.a.c
@@ -61348,7 +61348,7 @@ p.qs()
 return s.aU()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gvu(),p=0;p<s.length;s.length===r||(0,A.H)(s),++p)s[p].J(q)
-o.b=B.CC
+o.b=B.CB
 o.y=!1
 o.dB()},
 dr(a,b){return a.lI(b)},
@@ -63593,13 +63593,13 @@ else s=p<20?20:p
 return A.Ej(A.aa_(B.bx,0,new A.c4(new A.aT(n,p,0,n),A.cB("Let's Connect!",r,A.a9u().$1$textStyle(A.cC(r,r,B.i,r,r,r,r,r,r,r,r,s,r,r,B.b2,r,r,!0,r,r,r,r,r,r,r,r)),r),r),o),B.bx,new A.nE(new A.Pg(this),r),r)}}
 A.Pg.prototype={
 $2(a,b){var s,r,q,p,o=null,n=J.ld(7,t.l7)
-for(s=this.a,r=0;r<7;++r){q=B.Cm[r]
+for(s=this.a,r=0;r<7;++r){q=B.Cl[r]
 p=B.Et.k(0,r)
 p.toString
 n[r]=new A.lt(o,o,o,B.bn,A.no(o,new A.qE(B.a_,o,o,A.dJ(o,new A.F3(q,p,o),o,o,o,o,B.zR,o,250),o),B.ao,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.Pf(s,r),o,o,o,!1,B.bK),o)}return A.hB(A.b([A.R4(new A.c4(B.zN,A.eX(n,B.dM,B.aa,B.T),o),1)],t.p),B.X,B.aa,B.T)},
 $S:421}
 A.Pf.prototype={
-$0(){A.ze(A.eL(B.Cj[this.b],0,null))},
+$0(){A.ze(A.eL(B.Ci[this.b],0,null))},
 $S:0}
 A.F3.prototype={
 M(a){var s,r=null,q=A.bK(a,r,t.w).w.a.a,p=A.j6(8),o=q*0.018
@@ -63673,7 +63673,7 @@ $2(a,b){var s,r=this,q=null,p=b.b,o=r.a,n=r.b
 if(p<=450){p=o.a
 o=A.ak(a).Zx(B.yh)
 s=n.d
-return A.Ej(q,r.c,p,new A.vL(o,new A.qr(B.C5,new A.a5X(n),s,q,q),q))}else{s=r.e
+return A.Ej(q,r.c,p,new A.vL(o,new A.qr(B.C4,new A.a5X(n),s,q,q),q))}else{s=r.e
 return A.dJ(q,A.hB(A.b([A.abk(!0,new A.tQ(r.d,p>=800,A.b([A.Xo(B.Aw,A.cB("Home",q,s,q)),A.Xo(B.At,A.cB("Projects",q,s,q)),A.Xo(B.Au,A.cB("Resume",q,s,q)),A.Xo(B.Ay,A.cB("Contact",q,s,q))],t.P2),n.d,new A.a5Y(n),0,B.Aq,q),!0,!0,!0),A.R4(o.a,4)],t.p),B.X,B.aa,B.T),q,q,B.wC,q,q,q,q)}},
 $S:423}
 A.a5X.prototype={
@@ -63711,10 +63711,10 @@ p=A.aH([null,0],t.LO,t.S)
 m=o.length
 return A.Ej(r,B.bx,new A.c4(new A.aT(q,k*0.01,q,0),new A.BX(new A.a0p(i,0,0,s),new A.a0l(!0,!0,!0,o,p),l,B.aw,!1,l,l,B.w7,!1,l,m,B.ao,B.GR,l,B.ag,l),l),l)}}
 A.Yu.prototype={
-$0(){A.ze(A.eL(B.C3[this.b],0,null))},
+$0(){A.ze(A.eL(B.CO[this.b],0,null))},
 $S:0}
 A.zV.prototype={
-M(a){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=A.bK(a,h,t.w).w.a.a,f=A.j6(8),e=this.c,d=A.rW("assets/project0"+(e+1)+".jpg",B.wE,h,h),c=B.C6[e],b=g*0.012
+M(a){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=A.bK(a,h,t.w).w.a.a,f=A.j6(8),e=this.c,d=A.rW("assets/project0"+(e+1)+".jpg",B.wE,h,h),c=B.C5[e],b=g*0.012
 c=A.cB(c,h,A.a9u().$1$textStyle(A.cC(h,h,B.i,h,h,h,h,h,h,h,h,b>18?b:18,h,h,B.b2,h,h,!0,h,h,h,h,h,h,h,h)),h)
 s=g*0.003
 s=s>3?s:3
@@ -66076,8 +66076,8 @@ B.wD=new A.d8(B.yw,null,null,null,null,null,B.am)
 B.yj=new A.m(4279176233)
 B.yt=new A.m(4281346915)
 B.yr=new A.m(4280558654)
-B.CL=A.b(s([B.yj,B.yt,B.yr]),t.t_)
-B.B2=new A.jy(B.f9,B.f8,B.dm,B.CL,null,null)
+B.CK=A.b(s([B.yj,B.yt,B.yr]),t.t_)
+B.B2=new A.jy(B.f9,B.f8,B.dm,B.CK,null,null)
 B.ff=new A.d8(null,null,null,null,null,B.B2,B.am)
 B.wE=new A.qx(2,"cover")
 B.iK=new A.qx(3,"fitWidth")
@@ -66346,7 +66346,7 @@ B.xL=new A.a25()
 B.P=new A.a28()
 B.bw=new A.a2a()
 B.cq=new A.FH(0,0,0,0)
-B.CA=A.b(s([]),A.ab("y<awc>"))
+B.Cz=A.b(s([]),A.ab("y<awc>"))
 B.Ps=new A.a2b()
 B.aI={}
 B.ps=new A.bm(B.aI,[],t.li)
@@ -66495,8 +66495,8 @@ B.b0=new A.m(4294956994)
 B.z6=new A.m(436207616)
 B.z7=new A.m(520093696)
 B.z8=new A.m(536870911)
-B.Cm=A.b(s(["Email","GitHub","LinkedIn","DevPost","Instagram","Twitter","WhatsApp"]),t.s)
-B.Cj=A.b(s(["mailto:sephinsebastian0830@gmail.comhttps://github.com/SephinSE","https://linkedin.com/in/SephinSE","https://devpost.com/SephinSE","https://instagram.com/sephinse","https://x.com/sephinse","https://wa.me/919002969883?text=Hello,+I+am+interested+in+learning+more+about+your+business.+Let's+Connect!"]),t.s)
+B.Cl=A.b(s(["Email","GitHub","LinkedIn","DevPost","Instagram","Twitter","WhatsApp"]),t.s)
+B.Ci=A.b(s(["mailto:sephinsebastian0830@gmail.comhttps://github.com/SephinSE","https://linkedin.com/in/SephinSE","https://devpost.com/SephinSE","https://instagram.com/sephinse","https://x.com/sephinse","https://wa.me/919002969883?text=Hello,+I+am+interested+in+learning+more+about+your+business.+Let's+Connect!"]),t.s)
 B.HL=new A.hE(60854,"SimpleIcons","simple_icons",!1)
 B.HP=new A.hE(60840,"SimpleIcons","simple_icons",!1)
 B.HQ=new A.hE(61298,"SimpleIcons","simple_icons",!1)
@@ -66762,20 +66762,19 @@ B.BU=A.b(s([B.fb,B.fc]),A.ab("y<qj>"))
 B.BX=A.b(s(["https://github.com/SephinSE/MyMess-RDBMS-Mini-Project","https://github.com/SephinSE/thistle","https://github.com/SephinSE/LawBridge-SIH-2023-Submission","https://github.com/SephinSE/ENIGMA-X","https://github.com/SephinSE/Green-App-ENIGMA-X"]),t.s)
 B.kl=A.b(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.cT=A.b(s([B.bY,B.br,B.dt,B.du,B.fa]),t.QP)
-B.C3=A.b(s(["https://www.figma.com/proto/mxBTIQ2BI5xt1HBxitPHaX/MyMess-2?node-id=127-37&t=SqZIbSBJVf8N7gKh-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&hide-ui=1","","https://www.figma.com/proto/Hm1qrfMJIGeNzr46P6F3R7/LawBridge?node-id=51-770&t=ZpPMxXA03lwDpBs9-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&hide-ui=1","https://www.figma.com/proto/wxIFRSCEVpPGAvxVybyvby/MyMess?node-id=24-283&t=VdURuxK1Eeb9OgMx-8&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&hide-ui=1","https://www.figma.com/proto/NCG1S3YrTNv9Sw1RAajD6s/GreenApp?node-id=22-130&t=bTE2uTS0kBLIR7X4-8&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&hide-ui=1"]),t.s)
-B.Ch=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
-B.Az=new A.ie(B.Ch,"image/png")
-B.Cc=A.b(s([71,73,70,56,55,97]),t.Z)
-B.AD=new A.ie(B.Cc,"image/gif")
-B.Cd=A.b(s([71,73,70,56,57,97]),t.Z)
-B.AE=new A.ie(B.Cd,"image/gif")
+B.Cg=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
+B.Az=new A.ie(B.Cg,"image/png")
+B.Cb=A.b(s([71,73,70,56,55,97]),t.Z)
+B.AD=new A.ie(B.Cb,"image/gif")
+B.Cc=A.b(s([71,73,70,56,57,97]),t.Z)
+B.AE=new A.ie(B.Cc,"image/gif")
 B.B7=A.b(s([255,216,255]),t.Z)
 B.AC=new A.ie(B.B7,"image/jpeg")
 B.BT=A.b(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
 B.AB=new A.ie(B.BT,"image/webp")
 B.BH=A.b(s([66,77]),t.Z)
 B.AA=new A.ie(B.BH,"image/bmp")
-B.C4=A.b(s([B.Az,B.AD,B.AE,B.AC,B.AB,B.AA]),A.ab("y<ie>"))
+B.C3=A.b(s([B.Az,B.AD,B.AE,B.AC,B.AB,B.AA]),A.ab("y<ie>"))
 B.CV=new A.hm("en","US")
 B.km=A.b(s([B.CV]),t.ss)
 B.kb=new A.e8(B.k5,null,null,null,null)
@@ -66786,46 +66785,46 @@ B.ka=new A.e8(B.k3,null,null,null,null)
 B.wo=new A.kF(B.ka,B.ka,"Resume")
 B.kc=new A.e8(B.k7,null,null,null,null)
 B.wn=new A.kF(B.kc,B.kc,"Contact")
-B.C5=A.b(s([B.wm,B.wp,B.wo,B.wn]),A.ab("y<kF>"))
-B.C6=A.b(s(["MyMess","Thistle","LawBridge","MyMess Mobile","Green App"]),t.s)
+B.C4=A.b(s([B.wm,B.wp,B.wo,B.wn]),A.ab("y<kF>"))
+B.C5=A.b(s(["MyMess","Thistle","LawBridge","MyMess Mobile","Green App"]),t.s)
 B.kn=A.b(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
-B.C7=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
+B.C6=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.IY=new A.vv(0,"left")
 B.IZ=new A.vv(1,"right")
-B.Ce=A.b(s([B.IY,B.IZ]),A.ab("y<vv>"))
+B.Cd=A.b(s([B.IY,B.IZ]),A.ab("y<vv>"))
 B.aV=new A.vA(0,"upstream")
 B.w=new A.vA(1,"downstream")
-B.Cf=A.b(s([B.aV,B.w]),A.ab("y<vA>"))
+B.Ce=A.b(s([B.aV,B.w]),A.ab("y<vA>"))
 B.as=new A.vE(0,"rtl")
 B.at=new A.vE(1,"ltr")
 B.h5=A.b(s([B.as,B.at]),A.ab("y<vE>"))
 B.ko=A.b(s([0,0,32776,33792,1,10240,0,0]),t.t)
 B.kp=A.b(s([B.c2,B.dU,B.dV,B.j,B.C,B.b2,B.ay,B.cO,B.bg]),A.ab("y<dM>"))
-B.Co=A.b(s(["click","scroll"]),t.s)
-B.CD=A.b(s([]),t.QP)
+B.Cn=A.b(s(["click","scroll"]),t.s)
+B.CC=A.b(s([]),t.QP)
 B.ks=A.b(s([]),A.ab("y<avZ>"))
-B.CG=A.b(s([]),t.E)
-B.CB=A.b(s([]),t.ER)
-B.CH=A.b(s([]),t.tc)
+B.CF=A.b(s([]),t.E)
+B.CA=A.b(s([]),t.ER)
+B.CG=A.b(s([]),t.tc)
 B.e2=A.b(s([]),t.jl)
-B.CJ=A.b(s([]),t.fy)
-B.CI=A.b(s([]),A.ab("y<ab8<@>>"))
+B.CI=A.b(s([]),t.fy)
+B.CH=A.b(s([]),A.ab("y<ab8<@>>"))
 B.h6=A.b(s([]),t.AO)
-B.CC=A.b(s([]),t.D1)
+B.CB=A.b(s([]),t.D1)
 B.h7=A.b(s([]),t.QF)
 B.kr=A.b(s([]),t.s)
 B.a9=A.b(s([]),t.oU)
-B.CF=A.b(s([]),t.Lx)
+B.CE=A.b(s([]),t.Lx)
 B.Py=A.b(s([]),t.p)
-B.Cz=A.b(s([]),t.t)
+B.Cy=A.b(s([]),t.t)
 B.kq=A.b(s([]),t.ee)
-B.CE=A.b(s([]),t.XS)
-B.Cp=A.b(s(["Figma","React","Node.js","Express.js","MySQL"]),t.s)
-B.Cg=A.b(s(["Figma","Flutter","Firebase","UI/UX Design"]),t.s)
-B.Cn=A.b(s(["Figma","Hackathon Idea","UI/UX Design"]),t.s)
-B.Ci=A.b(s(["Figma","Flutter","UI/UX Design","Hackathon Idea"]),t.s)
-B.CN=A.b(s(["Figma","React","UI/UX Design"]),t.s)
-B.kt=A.b(s([B.Cp,B.Cg,B.Cn,B.Ci,B.CN]),A.ab("y<K<w>>"))
+B.CD=A.b(s([]),t.XS)
+B.Co=A.b(s(["Figma","React","Node.js","Express.js","MySQL"]),t.s)
+B.Cf=A.b(s(["Figma","Flutter","Firebase","UI/UX Design"]),t.s)
+B.Cm=A.b(s(["Figma","Hackathon Idea","UI/UX Design"]),t.s)
+B.Ch=A.b(s(["Figma","Flutter","UI/UX Design","Hackathon Idea"]),t.s)
+B.CM=A.b(s(["Figma","React","UI/UX Design"]),t.s)
+B.kt=A.b(s([B.Co,B.Cf,B.Cm,B.Ch,B.CM]),A.ab("y<K<w>>"))
 B.vF=new A.oY(0,"topLeft")
 B.vI=new A.oY(3,"bottomRight")
 B.Ox=new A.iM(B.vF,B.vI)
@@ -66834,7 +66833,7 @@ B.vG=new A.oY(1,"topRight")
 B.vH=new A.oY(2,"bottomLeft")
 B.Oy=new A.iM(B.vG,B.vH)
 B.Oz=new A.iM(B.vH,B.vG)
-B.CK=A.b(s([B.Ox,B.OA,B.Oy,B.Oz]),A.ab("y<iM>"))
+B.CJ=A.b(s([B.Ox,B.OA,B.Oy,B.Oz]),A.ab("y<iM>"))
 B.c9=new A.eC(0,"controlModifier")
 B.ca=new A.eC(1,"shiftModifier")
 B.cb=new A.eC(2,"altModifier")
@@ -66848,9 +66847,10 @@ B.ku=A.b(s([B.c9,B.ca,B.cb,B.cc,B.hq,B.hr,B.hs,B.ht,B.px]),A.ab("y<eC>"))
 B.y_=new A.mT(0,"auto")
 B.y0=new A.mT(1,"full")
 B.y1=new A.mT(2,"chromium")
-B.CM=A.b(s([B.y_,B.y0,B.y1]),A.ab("y<mT>"))
+B.CL=A.b(s([B.y_,B.y0,B.y1]),A.ab("y<mT>"))
 B.e3=A.b(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
-B.CO=A.b(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
+B.CN=A.b(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
+B.CO=A.b(s(["https://www.figma.com/proto/mxBTIQ2BI5xt1HBxitPHaX/MyMess-2?node-id=127-37&t=SqZIbSBJVf8N7gKh-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&hide-ui=1","https://github.com/SephinSE/thistle/","https://www.figma.com/proto/Hm1qrfMJIGeNzr46P6F3R7/LawBridge?node-id=51-770&t=ZpPMxXA03lwDpBs9-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&hide-ui=1","https://www.figma.com/proto/wxIFRSCEVpPGAvxVybyvby/MyMess?node-id=24-283&t=VdURuxK1Eeb9OgMx-8&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&hide-ui=1","https://www.figma.com/proto/NCG1S3YrTNv9Sw1RAajD6s/GreenApp?node-id=22-130&t=bTE2uTS0kBLIR7X4-8&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&hide-ui=1"]),t.s)
 B.b7=new A.cQ(1,"fuchsia")
 B.b8=new A.cQ(3,"linux")
 B.b9=new A.cQ(5,"windows")
@@ -66905,37 +66905,37 @@ B.pk=new A.d(8589935151)
 B.C2=A.b(s([B.p6,null,null,B.pk]),t.L)
 B.p7=new A.d(48)
 B.hk=new A.d(8589935152)
-B.Cr=A.b(s([B.p7,null,null,B.hk]),t.L)
+B.Cq=A.b(s([B.p7,null,null,B.hk]),t.L)
 B.p8=new A.d(49)
 B.d2=new A.d(8589935153)
-B.Cs=A.b(s([B.p8,null,null,B.d2]),t.L)
+B.Cr=A.b(s([B.p8,null,null,B.d2]),t.L)
 B.p9=new A.d(50)
 B.bE=new A.d(8589935154)
-B.Ct=A.b(s([B.p9,null,null,B.bE]),t.L)
+B.Cs=A.b(s([B.p9,null,null,B.bE]),t.L)
 B.pa=new A.d(51)
 B.d3=new A.d(8589935155)
-B.Cu=A.b(s([B.pa,null,null,B.d3]),t.L)
+B.Ct=A.b(s([B.pa,null,null,B.d3]),t.L)
 B.pb=new A.d(52)
 B.bF=new A.d(8589935156)
-B.Cv=A.b(s([B.pb,null,null,B.bF]),t.L)
+B.Cu=A.b(s([B.pb,null,null,B.bF]),t.L)
 B.pc=new A.d(53)
 B.hl=new A.d(8589935157)
-B.Cw=A.b(s([B.pc,null,null,B.hl]),t.L)
+B.Cv=A.b(s([B.pc,null,null,B.hl]),t.L)
 B.pd=new A.d(54)
 B.bG=new A.d(8589935158)
-B.Cx=A.b(s([B.pd,null,null,B.bG]),t.L)
+B.Cw=A.b(s([B.pd,null,null,B.bG]),t.L)
 B.pe=new A.d(55)
 B.d4=new A.d(8589935159)
-B.Cy=A.b(s([B.pe,null,null,B.d4]),t.L)
+B.Cx=A.b(s([B.pe,null,null,B.d4]),t.L)
 B.pf=new A.d(56)
 B.bH=new A.d(8589935160)
-B.Ck=A.b(s([B.pf,null,null,B.bH]),t.L)
+B.Cj=A.b(s([B.pf,null,null,B.bH]),t.L)
 B.pg=new A.d(57)
 B.d5=new A.d(8589935161)
-B.Cl=A.b(s([B.pg,null,null,B.d5]),t.L)
+B.Ck=A.b(s([B.pg,null,null,B.d5]),t.L)
 B.CQ=A.b(s([B.d0,B.d0,B.ea,null]),t.L)
 B.e6=new A.d(4294967555)
-B.Cq=A.b(s([B.e6,null,B.e6,null]),t.L)
+B.Cp=A.b(s([B.e6,null,B.e6,null]),t.L)
 B.aQ=new A.d(4294968065)
 B.BI=A.b(s([B.aQ,null,null,B.bE]),t.L)
 B.aG=new A.d(4294968066)
@@ -66963,7 +66963,7 @@ B.BN=A.b(s([B.cX,null,null,B.d3]),t.L)
 B.cY=new A.d(4294968072)
 B.B9=A.b(s([B.cY,null,null,B.d5]),t.L)
 B.CT=A.b(s([B.c5,B.c5,B.d_,null]),t.L)
-B.Ep=new A.bV(["*",B.BZ,"+",B.C_,"-",B.C0,".",B.C1,"/",B.C2,"0",B.Cr,"1",B.Cs,"2",B.Ct,"3",B.Cu,"4",B.Cv,"5",B.Cw,"6",B.Cx,"7",B.Cy,"8",B.Ck,"9",B.Cl,"Alt",B.CQ,"AltGraph",B.Cq,"ArrowDown",B.BI,"ArrowLeft",B.BJ,"ArrowRight",B.BK,"ArrowUp",B.Bw,"Clear",B.BR,"Control",B.CR,"Delete",B.BP,"End",B.BL,"Enter",B.BG,"Home",B.BM,"Insert",B.BS,"Meta",B.CS,"PageDown",B.BN,"PageUp",B.B9,"Shift",B.CT],A.ab("bV<w,K<d?>>"))
+B.Ep=new A.bV(["*",B.BZ,"+",B.C_,"-",B.C0,".",B.C1,"/",B.C2,"0",B.Cq,"1",B.Cr,"2",B.Cs,"3",B.Ct,"4",B.Cu,"5",B.Cv,"6",B.Cw,"7",B.Cx,"8",B.Cj,"9",B.Ck,"Alt",B.CQ,"AltGraph",B.Cp,"ArrowDown",B.BI,"ArrowLeft",B.BJ,"ArrowRight",B.BK,"ArrowUp",B.Bw,"Clear",B.BR,"Control",B.CR,"Delete",B.BP,"End",B.BL,"Enter",B.BG,"Home",B.BM,"Insert",B.BS,"Meta",B.CS,"PageDown",B.BN,"PageUp",B.B9,"Shift",B.CT],A.ab("bV<w,K<d?>>"))
 B.Bn=A.b(s([42,null,null,8589935146]),t.Z)
 B.Bo=A.b(s([43,null,null,8589935147]),t.Z)
 B.Bq=A.b(s([45,null,null,8589935149]),t.Z)
@@ -66979,24 +66979,24 @@ B.BC=A.b(s([54,null,null,8589935158]),t.Z)
 B.BD=A.b(s([55,null,null,8589935159]),t.Z)
 B.BE=A.b(s([56,null,null,8589935160]),t.Z)
 B.BF=A.b(s([57,null,null,8589935161]),t.Z)
-B.C8=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.C7=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.Bc=A.b(s([4294967555,null,4294967555,null]),t.Z)
 B.Bd=A.b(s([4294968065,null,null,8589935154]),t.Z)
 B.Be=A.b(s([4294968066,null,null,8589935156]),t.Z)
 B.Bf=A.b(s([4294968067,null,null,8589935158]),t.Z)
 B.Bg=A.b(s([4294968068,null,null,8589935160]),t.Z)
 B.Bl=A.b(s([4294968321,null,null,8589935157]),t.Z)
-B.C9=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.C8=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.Bb=A.b(s([4294967423,null,null,8589935150]),t.Z)
 B.Bh=A.b(s([4294968069,null,null,8589935153]),t.Z)
 B.Ba=A.b(s([4294967309,null,null,8589935117]),t.Z)
 B.Bi=A.b(s([4294968070,null,null,8589935159]),t.Z)
 B.Bm=A.b(s([4294968327,null,null,8589935152]),t.Z)
-B.Ca=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.C9=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.Bj=A.b(s([4294968071,null,null,8589935155]),t.Z)
 B.Bk=A.b(s([4294968072,null,null,8589935161]),t.Z)
-B.Cb=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.po=new A.bV(["*",B.Bn,"+",B.Bo,"-",B.Bq,".",B.Br,"/",B.Bs,"0",B.Bt,"1",B.Bu,"2",B.By,"3",B.Bz,"4",B.BA,"5",B.BB,"6",B.BC,"7",B.BD,"8",B.BE,"9",B.BF,"Alt",B.C8,"AltGraph",B.Bc,"ArrowDown",B.Bd,"ArrowLeft",B.Be,"ArrowRight",B.Bf,"ArrowUp",B.Bg,"Clear",B.Bl,"Control",B.C9,"Delete",B.Bb,"End",B.Bh,"Enter",B.Ba,"Home",B.Bi,"Insert",B.Bm,"Meta",B.Ca,"PageDown",B.Bj,"PageUp",B.Bk,"Shift",B.Cb],A.ab("bV<w,K<j?>>"))
+B.Ca=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.po=new A.bV(["*",B.Bn,"+",B.Bo,"-",B.Bq,".",B.Br,"/",B.Bs,"0",B.Bt,"1",B.Bu,"2",B.By,"3",B.Bz,"4",B.BA,"5",B.BB,"6",B.BC,"7",B.BD,"8",B.BE,"9",B.BF,"Alt",B.C7,"AltGraph",B.Bc,"ArrowDown",B.Bd,"ArrowLeft",B.Be,"ArrowRight",B.Bf,"ArrowUp",B.Bg,"Clear",B.Bl,"Control",B.C8,"Delete",B.Bb,"End",B.Bh,"Enter",B.Ba,"Home",B.Bi,"Insert",B.Bm,"Meta",B.C9,"PageDown",B.Bj,"PageUp",B.Bk,"Shift",B.Ca],A.ab("bV<w,K<j?>>"))
 B.Eq=new A.bV([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.ab("bV<j,w>"))
 B.kA=new A.d(32)
 B.De=new A.d(33)
@@ -68767,7 +68767,7 @@ r($,"atg","akP",()=>A.asO())
 r($,"azo","alc",()=>A.cU().gyb()+"roboto/v20/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf")
 r($,"ayP","akN",()=>A.asE(A.mz(A.mz(A.acC(),"window"),"FinalizationRegistry"),A.aeq(new A.a8q())))
 r($,"azZ","alA",()=>new A.Xk())
-s($,"ayV","akR",()=>A.ap0(B.CO))
+s($,"ayV","akR",()=>A.ap0(B.CN))
 s($,"ayU","a9O",()=>A.U7(A.amx($.akR())))
 s($,"ayI","akJ",()=>A.ag1(A.x(A.a2(),"ParagraphBuilder")))
 s($,"avW","aj8",()=>A.ahD(A.mz(A.mz(A.mz(A.acC(),"window"),"flutterCanvasKit"),"Paint")))
